@@ -13,3 +13,18 @@ template RangeProof(n) {
 
     // [assignment] insert your code here
 }
+
+template InRange(n) {
+  signal input value;
+  signal input lower;
+  signal input upper;
+  signal output
+  high.in[1] <== upper;
+
+
+  low.in[0] <== value;
+  low.in[1] <== lower;
+
+
+  out <== high.out*low.out;
+}
